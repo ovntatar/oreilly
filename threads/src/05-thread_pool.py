@@ -2,6 +2,10 @@
 from training import WEBSITES, visit_website
 from concurrent.futures import ThreadPoolExecutor
 
+# https://docs.python.org/3/library/concurrent.futures.html
+# os.cpu_count() + 4)
+
+
 
 if __name__ == '__main__':
     print('Main thread starting')
